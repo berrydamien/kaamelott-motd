@@ -1,5 +1,5 @@
 # kaamelott-motd
-Message Of The Day d'attente de Kaamelott le film
+Message Of The Day d'attente de Kaamelott le film.
 
 ## Installation : Debian et Ubuntu
 
