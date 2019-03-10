@@ -22,5 +22,5 @@ Secondes=$((DateKaamelott - DateActuelle))
 if [ "$Secondes" -gt "0" ]; then
     echo -e "\nBientôt, Arthur sera de nouveau un héros ... $((Secondes/(3600*24))) jours, $(( (Secondes/3600)%24 )) heures, $(( (Secondes/60)%60 )) minutes, $((Secondes%60 )) secondes."a
 else
-    echo -e "\nBientôt, Arthur sera de nouveau un héros ... et c'est maintenant au cinéma !!"
+    echo -e "\nMaintenant, Arthur est de nouveau un héros ... et c'est maintenant au cinéma !!"
 fi
