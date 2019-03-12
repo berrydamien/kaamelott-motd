@@ -20,7 +20,7 @@ DateKaamelott=1602626400         #date -d "2020-10-14 00:00:00" +%s
 DateActuelle=$(date +%s)
 Secondes=$((DateKaamelott - DateActuelle))
 if [ "$Secondes" -gt "0" ]; then
-    echo -e "\nBientôt, Arthur sera de nouveau un héros ... $((Secondes/(3600*24))) jours, $(( (Secondes/3600)%24 )) heures, $(( (Secondes/60)%60 )) minutes, $((Secondes%60 )) secondes."
+    echo -e "\nBientôt, Arthur sera de nouveau un héros ... $((Secondes/(3600*24))) jours, $(( (Secondes/3600)%24 )) heures, $(( (Secondes/60)%60 )) minutes et $((Secondes%60 )) secondes."
 else
     echo -e "\nMaintenant, Arthur est de nouveau un héros ... et c'est au cinéma !!"
 fi
