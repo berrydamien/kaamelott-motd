@@ -12,7 +12,7 @@ Placer le script `99-kaamelot` dans le répertoire `/etc/update-motd.d` et le re
 
 Lors de la prochaine connexion, le message : 
 
-" Bientôt, Arthur sera de nouveau un héros ... XXX jours, XX heures, XX minutes, XX secondes. "
+" Bientôt, Arthur sera de nouveau un héros ... XXX jours, XX heures, XX minutes et XX secondes. "
 
 apparait dans votre Message Of The Day.
 
