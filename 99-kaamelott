@@ -16,7 +16,7 @@
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
-DateKaamelott=1602626400         #date -d "2020-10-14 00:00:00" +%s
+DateKaamelott=1595973600         #date -d "2020-07-29 00:00:00" +%s # https://github.com/berrydamien/kaamelott-motd/issues/2 
 DateActuelle=$(date +%s)
 Secondes=$((DateKaamelott - DateActuelle))
 if [ "$Secondes" -gt "0" ]; then
